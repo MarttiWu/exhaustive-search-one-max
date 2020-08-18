@@ -42,3 +42,4 @@ void execute(const int Algo,const int runs,const int iterations,const int bits,c
         //complete when needed
     }
 }
+
