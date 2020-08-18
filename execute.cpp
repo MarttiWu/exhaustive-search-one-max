@@ -9,8 +9,9 @@
 #include "execute.hpp"
 
 void execute(const int Algo,const int runs,const int iterations,const int bits,const string filename){
-    ofstream fout;
+    ofstream fout,file;
     fout.open("RESULT.txt");
+    file.open("data.txt");
     vector<double> avg(iterations/block);
     if (filename==""){
         // forces runs to 1, because there are no random factors in ES
@@ -33,7 +34,8 @@ void execute(const int Algo,const int runs,const int iterations,const int bits,c
         }
         fout<<"----------------------------------------"<<endl;
         for (int i=0;i<avg.size();i++){
-             fout<<"Iter "<<i*block<<" : "<<avg[i]<<endl;
+            fout<<"Iter "<<i*block<<" : "<<avg[i]<<endl;
+            file<<i*block<<" "<<avg[i]<<endl;
         }
     }
     else{
