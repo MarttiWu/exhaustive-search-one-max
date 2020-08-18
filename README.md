@@ -1,1 +1,1 @@
-# Metaheuristic
+# GA-one-max
