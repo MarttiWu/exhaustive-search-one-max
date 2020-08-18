@@ -21,3 +21,4 @@ const int block = 100;
 void execute(const int Algo,const int runs,const int iterations,const int bits,const string filename);
 
 #endif /* execute_hpp */
+
