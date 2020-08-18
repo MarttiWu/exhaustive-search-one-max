@@ -1,9 +1,4 @@
-# exhaustive-search-one-max
-
-The one-max problem is a basic problem.
-
-Given a bit string of  0's and 1's, the aim is to find a bit string which contains the most 1's.
-
+# Exhaustive Search
 
 The Exhaustive Search Algorithm is a technique that has low efficiency.
 
@@ -12,6 +7,12 @@ Exhaustive Search goes through all possibilities.
 Theoretically, Exhaustive Search has the ability to find the optimum solution.
 
 However, time is limited in reality.
+
+# One-max problem
+
+The one-max problem is a basic problem.
+
+Given a bit string of  0's and 1's, the aim is to find a bit string which contains the most 1's.
 
 # Usage
 
