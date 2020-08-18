@@ -1,1 +1,1 @@
-# GA-one-max
+# exhaustive-search-one-max
