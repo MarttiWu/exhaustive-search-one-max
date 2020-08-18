@@ -14,4 +14,7 @@ Given a bit string of  0's and 1's, the aim is to find a bit string which contai
 
 # Customize
 
-You can change the iteration block by modifying "const int block=100;" in execute.h
+You can change the iteration block by modifying 
+
+        const int block=100;
+in "execute.h".
