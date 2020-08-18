@@ -62,4 +62,3 @@ int ES::FitnessFunction(vector<int> str){
         sum+=str[i];
     return sum;
 }
-
