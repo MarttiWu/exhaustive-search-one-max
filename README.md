@@ -19,3 +19,8 @@ You can change the iteration block by modifying
 
         const int block=100;
 in "execute.h".
+
+# Results
+
+![image] https://github.com/MarttiWu/exhaustive-search-one-max/blob/master/ES_one_max.pdf
+
