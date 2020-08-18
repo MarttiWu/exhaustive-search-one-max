@@ -1,6 +1,7 @@
 # exhaustive-search-one-max
 
 The one-max problem is a basic problem.
+
 Given a bit string of  0's and 1's, the aim is to find a bit string which contains the most 1's.
 
 # Usage
