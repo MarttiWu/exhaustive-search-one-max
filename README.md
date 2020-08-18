@@ -22,5 +22,5 @@ in "execute.h".
 
 # Results
 
-![alt text]
+![alt text](https://github.com/MarttiWu/exhaustive-search-one-max/blob/master/ES_one_max.png)
 
