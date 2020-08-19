@@ -45,6 +45,10 @@ void ES::run(){
         record_value[it] = max_value;
         it++;
     }
+    for (int i=it;i<record_value.size();i++){
+        record_bitstr[i] = best_bitstr;
+        record_value[i] = best_value;
+    }
 }
 
 void ES::add1(){
